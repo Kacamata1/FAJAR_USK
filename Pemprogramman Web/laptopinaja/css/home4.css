@@ -1,0 +1,122 @@
+
+.banner{
+    background-color: rgb(130, 126, 126);
+    margin-left: 3em;
+    height: 400px;
+    margin-right: 3em;
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+    padding: 0 3em;
+}
+
+.banner-description h5{
+    color: var(--darkgrey);
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.banner-description h3{
+    color : var(--white);
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.banner-description h1{
+    color: var(--darkgrey);
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+.banner-img img{
+    height: 250px;
+    margin-left: 3em;
+}
+
+.section-title{
+    margin-top: 1em;
+    font-size: 2em !important;
+}
+
+.row-card {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    flex-basis: 22%;
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 100%;
+    background-color: #6f6f6f;
+    margin-right: 30px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0px 10px 15px 3px rgba(0, 0, 0, 0.1);
+}
+
+.card:last-child{
+    margin-left: 0px;
+}
+
+.card-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.card-image img{
+    width: 250px
+}
+
+.card-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title-product{
+    font-size: 1.6em;
+    font-weight: 600;
+    line-height: 1.4em;
+    text-transform: capitalize;
+}
+
+.price-product{
+    font-size: 1.5em;
+    color: var(--darkgrey);
+}
+
+.btn-add-to-cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 3em;
+    text-decoration: none;
+    color: var(--darkgrey);
+    background-color: var(--white);
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+.icon-to-cart{
+    margin-left: 10px;
+    font-size: 1.3em;
+}
+
+
+.container {
+    margin-left: 3em;
+}
